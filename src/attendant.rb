@@ -1,15 +1,15 @@
 class Attendant
-    attr_accessor :name
-
+    attr_accessor :name, :cars
     def initialize name
         @name = name
+        @cars = []
     end
 
     def park car
-        car
+        @cars.push car
     end
 
     def num_of_cars
-        return 1
+        @cars.size
     end
 end
