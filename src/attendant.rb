@@ -9,7 +9,7 @@ class Attendant
         "car"
     end
 
-    def numbers_of_car
+    def num_of_cars
         return 1
     end
 end
