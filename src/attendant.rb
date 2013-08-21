@@ -5,8 +5,8 @@ class Attendant
         @name = name
     end
 
-    def park "car"
-        "car"
+    def park car
+        car
     end
 
     def num_of_cars
